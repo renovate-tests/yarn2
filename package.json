@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "jest": "25.4.0"
+    "jest": "25.5.4"
   },
   "scripts": {
     "test": "jest"
