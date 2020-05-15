@@ -1,5 +1,6 @@
 FROM mhart/alpine-node:latest as base
 
-RUN yarn --frozen-lockfile --offline --network-timeout 1000000
-
+COPY . ./
+RUN yarn config list --verbose 
+RUN yarn --frozen-lockfile --offline
 RUN yarn test
