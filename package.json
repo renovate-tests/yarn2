@@ -1,0 +1,15 @@
+{
+  "name": "renovate-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.com:kanjieater/renovate-test.git",
+  "author": "KanjiEater <kanjieat3r@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "jest": "26.0.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
